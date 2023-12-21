@@ -1,0 +1,215 @@
+*,
+*::before, 
+*::after {
+  box-sizing: border-box;
+ font-family: 'poppins', sans-serif;
+ line-height: 1.5;
+}
+
+body{
+  background: whitesmoke;
+}
+
+
+* {
+ margin: 0;
+ padding: 0;
+ 
+}
+
+
+.img {
+ display: block ;
+ max-width: 100%;
+ width: 77.33px;
+ height: 80px;
+ top: 205px;
+ left: 140px
+
+}
+.header {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ width: 100%;
+ 
+
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  margin-left: 140px;
+  max-width: 22rem;
+  max-height: 15rem;
+  font-size:medium;
+  
+}
+
+.p-1{
+  display: block;
+}
+.p-2{
+  display: none;
+}
+
+
+.form-box{
+  width: 580px;
+  height: 660px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-right: 140px;
+  background: #FFFFFF;
+  padding: 25px;
+  border-radius: 6px;
+  border: 0;
+  box-shadow: 0px 4px 50px 0px #0408131A;
+  
+
+
+}
+
+input,label,select{
+  max-width: 100%;
+  display: block;
+  margin-top: 0.5rem;
+  width: 238px;
+  margin: 0 26px 10px 0 ;
+  height: 42px;
+  border-color: #F0F0F0;
+
+
+}
+
+.box {
+ display: flex;
+ flex-direction: row;
+ justify-content:space-around;
+ font-weight: 500;
+ margin-top: px;
+
+
+}
+.box-2 {
+  width: 500px;
+  height: 42px;
+  margin-top: -25px;
+    
+
+}
+  
+  
+.button {
+  width: 500px;
+  height: 42px;
+  font-size: 20px;
+  background: #2EC4B6;
+  box-shadow: 0px 10px 40px 0px #0000001A;
+  border: 0;
+  margin-top: 20px;    margin-bottom: 15px;
+  align-items: center;
+  color: white;
+    
+}
+.word{
+  color:  #2EC4B6;
+}
+
+/**  For Small Screen ***/
+
+@media (max-width: 500px) {
+
+  body{
+   width: 375px;
+   height: 1250px;
+  }
+
+  .header{
+   max-width: 80%;
+   max-height: 150%;
+   margin-top: 30px;
+   flex-wrap: wrap;
+   border-radius: 1px #000000;
+   margin-left: 30px;
+
+  
+  }
+  .p-1{
+    display: none;
+  }
+  .p-2{
+    display: block;
+    width: 370px;
+    height: 50px;
+  }
+  .container{
+    margin-left: 30px; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+  }
+
+
+  .form-box{
+
+   width: 380px;
+   height: 885px;
+   margin: 1rem;
+   border-radius: 6px;
+   margin-top:-15px
+  
+  
+  }
+
+  .works{
+    max-width: 100%;
+    height: 
+  }
+
+  .box-2{
+    width:340px;
+    height:42px;
+  }
+
+  .button{
+   width: 335px;
+   height: 42px;
+
+  }
+
+  .last{
+    width: 300px;
+   height: 50px;
+   border: 1px;
+   font-family: Sofia Pro;
+   font-weight: 500;
+   ine-height: 25px;
+   letter-spacing: 0px;
+    text-align: center;
+
+   font-family: Sofia Pro;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 25px;
+   letter-spacing: 0px;
+   text-align: center;
+
+  }
+
+  input,label,select{
+    width:340px;
+    height:42px;
+  }
+}
+
+
+
+ 
+    
